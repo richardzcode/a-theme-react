@@ -1,0 +1,32 @@
+{
+  "name": "a-theme-react",
+  "version": "0.0.2",
+  "description": "AWS Amplify theme for React",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-react --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardzcode/a-theme-react.git"
+  },
+  "keywords": [
+    "AWS",
+    "Amplify",
+    "style",
+    "theme"
+  ],
+  "author": "Richard Zhang <richardzcode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardzcode/a-theme-react/issues"
+  },
+  "homepage": "https://github.com/richardzcode/a-theme-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react-fontawesome": "^1.6.1"
+  }
+}
