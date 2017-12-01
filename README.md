@@ -29,6 +29,8 @@ import { Bootstrap } from 'a-theme-react';
 
 ### Bootstrap
 
+A theme base on default Bootstrap theme CSS.
+
 <img src="a_theme_bootstrap.png" width="360" />
 
 ```
