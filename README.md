@@ -1,4 +1,4 @@
-# a-theme-react
+# A Theme React
 
 AWS Amplify UI is theme based. Developers are able to customize UI with theme.
 
