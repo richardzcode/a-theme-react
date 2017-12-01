@@ -47,3 +47,5 @@ For example add this line to HTML file:
 ```
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 ```
+
+The icons won't display without the CSS file. Everything else is not affected.

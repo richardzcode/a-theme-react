@@ -229,13 +229,88 @@ export const Space = {
     width: '20px'
 }
 
+export const A = {
+    color: '#007bff'
+}
+
+export const Pre = {
+    overflow: 'auto',
+    fontFamily: `Menlo,
+                Monaco,
+                Consolas,
+                "Courier New",
+                monospace`,
+    display: 'block',
+    padding: '9.5px',
+    margin: '0 0 10px',
+    fontSize: '13px',
+    lineHeight: '1.42857143',
+    color: '#333',
+    wordBreak: 'break-all',
+    wordWrap: 'break-word',
+    backgroundColor: '#f5f5f5',
+    border: '1px solid #ccc',
+    borderRadius: '4px'
+}
+
+export const Col1 = {
+    display: 'inline-block',
+    width: '8.33333333%'
+}
+
+export const Col2 = {
+    display: 'inline-block',
+    width: '16.66666667%'
+}
+
+export const Col3 = {
+    display: 'inline-block',
+    width: '25%'
+}
+
+export const Col4 = {
+    display: 'inline-block',
+    width: '33.33333333%'
+}
+
+export const Col5 = {
+    display: 'inline-block',
+    width: '41.66666667%'
+}
+
 export const Col6 = {
     display: 'inline-block',
     width: '50%'
 }
 
-export const A = {
-    color: '#007bff'
+export const Col7 = {
+    display: 'inline-block',
+    width: '58.33333333%'
+}
+
+export const Col8 = {
+    display: 'inline-block',
+    width: '66.66666667%'
+}
+
+export const Col9 = {
+    display: 'inline-block',
+    width: '75%'
+}
+
+export const Col10 = {
+    display: 'inline-block',
+    width: '83.33333333%'
+}
+
+export const Col11 = {
+    display: 'inline-block',
+    width: '91.66666667%'
+}
+
+export const Col12 = {
+    display: 'inline-block',
+    width: '100%'
 }
 
 const Bootstrap = {
@@ -266,8 +341,20 @@ const Bootstrap = {
     input: Input,
     button: Button,
     a: A,
+    pre: Pre,
 
-    col6: Col6
+    col1: Col1,
+    col2: Col2,
+    col3: Col3,
+    col4: Col4,
+    col5: Col5,
+    col6: Col6,
+    col7: Col7,
+    col8: Col8,
+    col9: Col9,
+    col10: Col10,
+    col11: Col11,
+    col12: Col12
 }
 
 export default Bootstrap
