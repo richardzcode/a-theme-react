@@ -1,6 +1,6 @@
 {
   "name": "a-theme-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AWS Amplify theme for React",
   "main": "dist/index.js",
   "scripts": {
