@@ -8,6 +8,7 @@ Here we build alternative themes for AWS Amplify.
 * [Apply](#apply)
 * [Themes](#themes)
   - [Bootstrap](#bootstrap)
+  - [Instagram](#instagram)
 
 ## Install
 
@@ -31,7 +32,7 @@ import { Bootstrap } from 'a-theme-react';
 
 A theme base on default Bootstrap theme CSS.
 
-<img src="a_theme_bootstrap.png" width="360" />
+<img src="media/a_theme_bootstrap.png" width="360" />
 
 ```
 import { Bootstrap } from 'a-theme-react';
@@ -49,3 +50,60 @@ For example add this line to HTML file:
 ```
 
 The icons won't display without the CSS file. Everything else is not affected.
+
+### Instagram
+
+A theme imitates [Instagram](https://www.instagram.com)
+
+<img src="media/a_theme_instagram.png" width="360" />
+
+```
+import { Instagram } from 'a-theme-react';
+
+<Authenticator theme={Instagram} />
+```
+
+**CSS Pseudo-Elements**
+
+One of the limitation in React inline styling is no pseudo-elements.
+
+Among CSS pseudo-elements, `::before` and `::after` are the two most frequent used. AWS Amplify UI is made to support these two.
+
+Here we take benefit of `before` and `after` to make this theme possible.
+
+Example:
+
+```
+const beforeImg = (
+    <img
+        src={screenshot5}
+        style={{
+            width: '216px',
+            marginTop: '87px',
+            marginLeft: '79px',
+            height: '393px'
+        }}
+    />
+)
+
+export const FormSection = {
+    margin: '0 0 10px',
+    color: '#262626',
+    backgroundColor: '#fff',
+    border: '1px solid #e6e6e6',
+    borderRadius: '1px',
+    textAlign: 'center',
+    width: '350px',
+    display: 'inline-block',
+    verticalAlign: 'middle',
+    before: {
+        content: beforeImg,
+        display: 'inline-block',
+        width: '400px',
+        height: '560px',
+        verticalAlign: 'middle',
+        backgroundImage: 'url(' + home_phone + ')',
+        backgroundSize: '400px 560px'
+    }
+}
+```
