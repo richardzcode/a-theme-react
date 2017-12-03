@@ -9,6 +9,7 @@ Here we build alternative themes for AWS Amplify.
 * [Themes](#themes)
   - [Bootstrap](#bootstrap)
   - [Instagram](#instagram)
+* [Example](#example)
 
 ## Install
 
@@ -107,3 +108,16 @@ export const FormSection = {
     }
 }
 ```
+
+## Example
+
+`example/` folder is a basic React app with theme
+
+```
+git clone https://github.com/richardzcode/a-theme-react.git
+cd a-theme-react/example
+npm install
+npm start
+```
+
+The example uses `Bootstrap` theme. Modify `src/index.js` for other themes.
