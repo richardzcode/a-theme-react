@@ -197,11 +197,8 @@ export const SignInButton = {
     color: '#fff',
     backgroundColor: '#3897f0',
     borderColor: '#3897f0',
-    width: '100%'
-}
-
-export const SignInButtonGoogle = {
-    display: 'none'
+    width: '100%',
+    '#google_signin_btn': { display: 'none' }
 }
 
 export const Space = {
@@ -260,7 +257,6 @@ const Instagram = {
     space: Space,
 
     signInButton: SignInButton,
-    signInButtonGoogle: SignInButtonGoogle,
 
     input: Input,
     button: Button,

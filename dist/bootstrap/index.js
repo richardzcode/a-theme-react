@@ -169,58 +169,36 @@ export const SignInButton = {
     textOverflow: 'ellipsis',
     display: 'block',
     width: '100%',
-    marginTop: '2px'
-};
-
-export const SignInButtonGoogle = {
-    position: 'relative',
-    padding: '6px 12px 6px 44px',
-    fontSize: '14px',
-    textAlign: 'left',
-    whiteSpace: 'nowrap',
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    display: 'block',
-    width: '100%',
-    color: '#fff',
-    backgroundColor: '#dd4b39',
-    borderColor: 'rgba(0,0,0,0.2)',
     marginTop: '2px',
-    before: {
-        content: React.createElement(FontAwesome, { name: 'google' }),
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        zIndex: 10,
+    '#google_signin_btn': {
         color: '#fff',
-        padding: '2px 12px 0',
-        fontSize: '20px'
-    }
-};
-
-export const SignInButtonFacebook = {
-    position: 'relative',
-    padding: '6px 12px 6px 44px',
-    fontSize: '14px',
-    textAlign: 'left',
-    whiteSpace: 'nowrap',
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    display: 'block',
-    width: '100%',
-    color: '#fff',
-    backgroundColor: '#3b5998',
-    borderColor: 'rgba(0,0,0,0.2)',
-    marginTop: '2px',
-    before: {
-        content: React.createElement(FontAwesome, { name: 'facebook' }),
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        zIndex: 10,
+        backgroundColor: '#dd4b39',
+        borderColor: 'rgba(0,0,0,0.2)',
+        before: {
+            content: React.createElement(FontAwesome, { name: 'google' }),
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            zIndex: 10,
+            color: '#fff',
+            padding: '2px 12px 0',
+            fontSize: '20px'
+        }
+    },
+    '#facebook_signin_btn': {
         color: '#fff',
-        padding: '2px 12px 0',
-        fontSize: '20px'
+        backgroundColor: '#3b5998',
+        borderColor: 'rgba(0,0,0,0.2)',
+        before: {
+            content: React.createElement(FontAwesome, { name: 'facebook' }),
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            zIndex: 10,
+            color: '#fff',
+            padding: '2px 12px 0',
+            fontSize: '20px'
+        }
     }
 };
 
@@ -335,8 +313,6 @@ const Bootstrap = {
     space: Space,
 
     signInButton: SignInButton,
-    signInButtonGoogle: SignInButtonGoogle,
-    signInButtonFacebook: SignInButtonFacebook,
 
     input: Input,
     button: Button,
