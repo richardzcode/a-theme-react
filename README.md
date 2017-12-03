@@ -120,4 +120,12 @@ npm install
 npm start
 ```
 
+Then copy `aws-exports.js` file to `src/` folder for AWS Amplify to work.
+
+**Other themes**
+
 The example uses `Bootstrap` theme. Modify `src/index.js` for other themes.
+
+```
+import { Instagram as theme } from 'a-theme-react'
+```

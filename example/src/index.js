@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import Amplify from 'aws-amplify';
 import aws_exports from './aws-exports';
 
-import { Bootstrap } from 'a-theme-react';
+import { Bootstrap as theme } from 'a-theme-react';
 
 Amplify.configure(aws_exports);
 
@@ -16,7 +16,7 @@ const federated = {
     facebook_app_id: 'replace with your app_id'
 }
 
-const app = <App theme={Bootstrap} federated={federated} />
+const app = <App theme={theme} federated={federated} />
 
 ReactDOM.render(app, document.getElementById('root'));
 registerServiceWorker();
